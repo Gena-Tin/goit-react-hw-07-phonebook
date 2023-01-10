@@ -1,0 +1,9 @@
+.phonebookSection{
+    width: 300px;
+    margin: auto;
+    background-color: #667e7e;
+    color: #fff3cc;
+    padding: 5px 15px 15px 15px;
+    box-shadow: 0 0 15px 0 #818181;
+    border-radius: 5px;
+}

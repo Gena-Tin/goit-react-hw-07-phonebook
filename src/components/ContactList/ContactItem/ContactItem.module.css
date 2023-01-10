@@ -1,0 +1,32 @@
+.contactItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 1px 1px 8px;
+    width: 97%;
+}
+
+.contactItem:not(last-child){
+margin-bottom: 0px;
+}
+.contactItem:nth-child(odd) {
+    background-color: #75a7a7;
+  }
+.contactItem:nth-child(even) {
+    background-color: #75a7a77c;
+  }
+
+.btnDelete {
+    background-color: #375e5200;
+    border-style: dotted;
+    color: #fff3cc;
+    width: 70px;
+    padding: 3px;
+    border-color: #fff3cc70;
+    border-radius: 5px;
+
+}
+.btnDelete:hover{
+    background-color: #375e5242;
+    border-style: double ;
+}

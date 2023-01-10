@@ -7,9 +7,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #d1d1d1;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #fff3cc;
+}
+
+a:link {
+  color: #fff3cc;
+}
+
+a:visited {
+  color: #fff3cc;
+}
+a:hover {
+    color: #ffd972;
 }

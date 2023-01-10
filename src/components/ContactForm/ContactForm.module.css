@@ -1,0 +1,30 @@
+.btnAddContact {
+    background-color: #375e5200;
+    border-style: dotted;
+    color: #fff3cc;
+    width: 205px;
+    height: 30px;
+    padding: 3px;
+    border-color: #fff3cc70;
+    border-radius: 5px;
+}
+.btnAddContact:hover{
+    background-color: #375e5242;
+    border-style: double;
+}
+.nameInput{
+    height: 25px;
+    width: 98%;
+    border-style: hidden;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
+.numberInput{
+    height: 25px;
+    width: 200px;
+    border-style: hidden;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
